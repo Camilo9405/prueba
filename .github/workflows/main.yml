@@ -1,0 +1,6 @@
+name: Build
+on:
+ label:
+  types: [created, deleted]
+    branches:
+      - main # or the name of your main branch
